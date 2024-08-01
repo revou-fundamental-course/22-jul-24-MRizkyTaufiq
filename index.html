@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <title>Assignment Week2</title>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="container">
+        <img src="image\logo-nav(3).png" class="logo-nav"/>
+        <div class="content-nav">Home   </div>
+        <div class="content-nav">Our Package</div>
+        <div class="content-nav">Call Us </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="configheader">
+        <div  style="background-color: rgba(255, 255, 255, 0.4);">
+            <h1>You're Trusted Travel Agent</h1>
+            <p><b>You're Happiness is Our Happiness</b></p>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <div>
+
+            <!-- AUTOSLIDE BANNER -->
+            <article class="testimoni-container">
+                <div class="main-content-banner banner-1">
+                    <img src="image\testimoni.jpg" class="testimoniimage"/>
+                    <br>
+                    <p style="text-align: center;">"Liburan jadi ga ribet bareng howliday"</p>
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\testimoni-profile.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Feby ananta</b></span></p>
+                                <p>Traveller,19</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-banner banner-2">
+                    <img src="image\testimoni-japan.jpg" class="testimoniimage"/>
+                    <br>
+                    <p style="text-align: center;">"Pergi ke negara jepang untuk menjadi wibu proffesional"</p>
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\testimoni-profile.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Ananta Sari</b></span></p>
+                                <p>Pemain Bola,20</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content-banner banner-3">
+                    <img src="image\testimoni-singapore.jpg" class="testimoniimage"/>
+                    <br>
+                    <p style="text-align: center;">"Singapore mah kecil, gedean pakuwon mall"</p>
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\testimoni-profile.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Tata</b></span></p>
+                                <p>Mahasiswa,18</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <!-- FORM -->
+            <form class="formkanan" name="data">
+                <div class="form-container">
+                    <div>
+                        <h3><b>Contact Us</b></h3>
+                        <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                    </div>
+                    <div class="confignama">
+                        <label for="name">Your Name:</label>
+                        <input style="width:100%; border-radius: 8px;" id="input-name" type="text" placeholder="First and last name">
+                    </div>
+                    <br>
+                    <div class="configemail">
+                        <label for="email">Email Address:</label>
+                        <input style="width:100%; border-radius: 8px;" id="input-email" type="email" name="email" placeholder="example@email.com">
+                    </div>
+                    <br>
+                    <div class="configinterested">
+                        <label for="Interest">What are you interested in?</label>
+                        <select style="width:100%; border-radius: 8px;" id="input-interest" name="Interest">
+                            <option value="Bali">Bali                   </option>
+                            <option value="Japan">Japan                 </option>
+                            <option value="Singapore">Singapore         </option>
+                            <option value="Bandung">Bandung             </option>
+                            <option value="Surabaya">Surabaya           </option>
+                            <option value="Third Feature">Third Feature </option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <button class="submit-button" type="button" onclick="formValidation();">SEND</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <br>
+
+        <!-- BAGIAN BAWAH BANNER/ADVANTAGE -->
+        <div class="sectionkiribawah">
+            <h2 style="padding-left: 25px;">Why Choose HOWLIDAY?</h2>
+
+            <div>
+                <h3 class="borderstyle-list">1</h3>
+                <p><b>Personalized Travel Experiences</b><br> Kami menyesuaikan setiap perjalanan agar sesuai dengan preferensi unik Anda,<br>memastikan pengalaman perjalanan yang tak terlupakan dan personal.</p>
+            </div>
+            <div>
+                <h3 class="borderstyle-list">2</h3>
+                <p><b>Comprehensive Travel Packages</b><br>Nikmati perjalanan tanpa repot dengan paket lengkap kami yang<br> mencakup penerbangan, akomodasi, dan aktivitas dengan harga terbaik.</p>
+            </div>
+            <div>
+                <h3 class="borderstyle-list">3</h3>
+                <p><b>24/7 Customer Support</b><br>Perjalanan dengan tenang karena tim dukungan kami siap membantu<br> Anda kapan saja, sepanjang hari, untuk menjawab pertanyaan atau menangani situasi darurat.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="pembatasfooter"><h1>OUR PACKAGE</h1></div>
+        <div class="maincontentfooter">
+            <div class="columncontainer">
+                <div class="rowcontainer">
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\location.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Bali</b></span></p>
+                                <p>Travel dan wsata di bali<br>kunjungi cagar budaya dan<br> kuliner yang menarik </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\location.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Japan</b></span></p>
+                                <p>Wisata budaya, teknologi <br>canggih,dan kuliner khas<br> yang memukau. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\location.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Singapore</b></span></p>
+                                <p>Surga belanja, destinasi<br> wisata modern, dan<br> kuliner internasional. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rowcontainer">
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\location.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Bandung</b></span></p>
+                                <p>Lanskap pegunungan yang<br> indah, belanja fashion,<br> dan kuliner kreatif." </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\location.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Surabaya</b></span></p>
+                                <p>Kota sejarah dengan <br>atraksi, wisata budaya, <br> kuliner legendaris. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial">
+                            <div class="testimonial-profile">
+                                <img src="image\location.png" alt="taglocation" style="width: 70px">
+                            </div>
+                            <div>
+                                <p><span><b>Honeymoon Pack</b></span></p>
+                                <p>Nikmati paket tur<br> bulan madu Jepang<br>-Singapura-Bali</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="closingargument">
+            <h2>INI CLOSING ARGUMENT</h2>
+            <p>"Unforgettable moments, crafted for you.<br>Use Our Travel,make your dreams come true"</p>
+            <button class="calltoaction-button" type="button">CALL TO ACTION</button>
+        </div>
+        <div class="bagianakhirfooter">
+            <img src="image\logo-nav(3).png" class="logo-end"/>
+                <div>
+                    <p>Terms of Service &ensp;Privacy Policy</p>
+                </div>
+               <div>
+                    <p>2019&ensp;Howliday</p>
+                </div>
+            </section>
+            
+        </div>
+    </footer>
+    <script src="js\script.js"></script>
+</body>
+</html>
